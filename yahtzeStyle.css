@@ -1,0 +1,78 @@
+.myFont {
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	color: #292e1e;
+	}
+.center{
+	margin: auto;
+	width: 855px;
+	border: none;
+	padding: 25px;
+	}
+.background {
+	background-color: #9c92a3;
+	width: 800px;
+	height: 900px;
+	padding: 25px;
+	margin: auto;
+	position: relative;
+	border-radius: 4px;
+	}
+.top-button{
+		background-color: #c6b9cd !important;
+		border-radius: 4px !important;
+		color: #292e1e !important;
+		display: inline-block !important;
+		font-size: 16px !important;
+		line-height: 1.3 !important;
+		padding: 14px 16px !important;
+		text-decoration: none !important;
+		border: solid 1px #001d3d !important;
+		transition: all 0.14s ease-out !important;
+	}
+.top-button:hover { 
+	transform: translate(-4px, -4px) !important; 
+	box-shadow: 4px 4px 0px #000000 !important; 
+	color: #292e1e !important; background: #c6b9cd !important;
+	}
+.button {
+	background-color: #c6b9cd !important;
+	border-radius: 4px !important;
+	color: #292e1e !important;
+	display: inline-block !important;
+	font-size: 16px !important;
+	line-height: 1.3 !important;
+	padding: 14px 16px !important;
+	width: 100px !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	border: solid 1px #000000 !important;
+	transition: all 0.14s ease-out !important;
+	}
+.button:hover { 
+	transform: translate(-4px, -4px) !important; 
+	box-shadow: 4px 4px 0px #000000 !important; 
+	color: #292e1e !important; background: #c6b9cd !important;
+	}
+.button:disabled { 
+	color: #9c92a3 !important; background: #c6b9cd !important;
+	transform: none !important; box-shadow: none !important;
+	}
+.dice-format {
+	line-height: 1.3;
+	padding-left: 25px;
+	padding-right: 20px;
+	}
+
+.button-jovita {
+	background-color: #8a7d94 !important;
+	border-radius: 4px !important;
+	color: #292e1e !important;
+	display: inline-block !important;
+	font-size: 16px !important;
+	line-height: 1.0 !important;
+	padding: 10px 16px !important;
+	text-decoration: none !important;
+	border: solid 1px #000000 !important;
+	transition: all 0.14s ease-out !important;
+	}

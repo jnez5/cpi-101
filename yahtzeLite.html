@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+
+Jovita Nez
+CPI 101
+02 / 28 / 2022
+
+ -->
+
+<head>
+   <meta charset="utf-8">
+   <link rel="icon" href="./favicon.png">
+   <link href="yahtzeStyle.css" rel="stylesheet" type="text/css">
+   <title>Yahtzee Lite</title>
+   <script src="YahtzeHW.js"></script>
+</head>
+
+<body style="background-color:#c6b9cd;">
+   <div class="myFont">
+      <h1>Hi all, I'm Jovita!</h1>
+      <div class="center">
+			<table>
+				<tr>
+					<td><a href=".\index.html" class="top-button"> Home </a></td>
+					<td><a href=".\resume.html" class="top-button"> Résumé </a></td>
+					<td><a href=".\yahtzeLite.html" class="top-button"> Yahtze Lite! </a></td>
+				</tr>
+			</table>
+		</div>
+
+      <div class="background">
+         <p>
+            Welcome to Yahtzee Lite!</br>
+            <i>Press the play button to start the game. You have three rolls.<br> Choose which dice to keep using the
+               buttons
+               below each dice.<br>
+               Goal is to have a Large Straight: numbers 1 - 5 OR numbers 2 - 6</i>
+
+         <form action="#" style="margin:auto;">
+            <input id="playButton" type="button" value="Play" class="button">
+            <input id="rollButton" type="button" value="Roll" disabled class="button">
+         </form>
+
+         <audio id="diceRollingAudio" preload="auto">
+            <source src="Shake And Roll Dice.mp3" type="audio/mpeg">
+            Browser does not support audio tag
+         </audio>
+         <br>
+         <div id="messages" style="color: rgb(131, 3, 52)">Click Play to start game</div>
+         <div id="gameOverMessage" style="color: #ff0000"></div>
+
+         <div style="margin: auto;">
+            <p><img id="die1" src="blank.png" alt="die 1 image" class="dice-format">
+               <img id="die2" src="blank.png" alt="die 2 image" class="dice-format">
+               <img id="die3" src="blank.png" alt="die 3 image" class="dice-format">
+               <img id="die4" src="blank.png" alt="die 4 image" class="dice-format">
+               <img id="die5" src="blank.png" alt="die 5 image" class="dice-format">
+            </p>
+
+            <form action="#">
+               <input id="keeper1" type="button" class="button" value="keep?">
+               <input id="keeper2" type="button" class="button" value="keep?">
+               <input id="keeper3" type="button" class="button" value="keep?">
+               <input id="keeper4" type="button" class="button" value="keep?">
+               <input id="keeper5" type="button" class="button" value="keep?">
+            </form>
+         </div>
+         <br><br>
+
+         <div>Select the "keep?" button for dice that you would like to keep before rolling<br>
+            Dice selected to keep will show "keeper" <br> 
+            <b style="text-shadow: 0.25px 0.25px #8a7d94">You can only select keep button once, so choose carefully!</b>
+         </div>
+         <br><br>
+         <div>
+            <a href="https://www.public.asu.edu/~jnez5/resume.html" target="_blank" class="button-jovita"> Jovita Nez</a>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
